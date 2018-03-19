@@ -1,6 +1,6 @@
 {
   "name": "ycs-plugin-wechat-mp-ticket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ycs-plugin-wechat-mp-ticket",
   "license": "MIT",
   "repository": "https://github.com/yc-server/ycs-plugin-wechat-mp-ticket.git",
