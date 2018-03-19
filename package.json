@@ -1,6 +1,6 @@
 {
   "name": "ycs-plugin-wechat-mp-ticket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ycs-plugin-wechat-mp-ticket",
   "license": "MIT",
   "repository": "https://github.com/yc-server/ycs-plugin-wechat-mp-ticket.git",
@@ -30,7 +30,10 @@
     "watch": "npm run build -- --watch",
     "watch:test": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
   "devDependencies": {
     "@types/jest": "^20.0.5",
     "@types/node": "^8.0.0",
@@ -42,8 +45,6 @@
     "jest-environment-node-debug": "^2.0.0",
     "moment": "^2.18.1",
     "prettier": "^1.5.2",
-    "request": "^2.85.0",
-    "request-promise": "^4.2.2",
     "rimraf": "^2.0.0",
     "ts-jest": "^20.0.7",
     "ts-node": "^3.2.0",
